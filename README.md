@@ -124,11 +124,3 @@ Para rodar em PostgreSQL, só duas coisas mudam: `DATE_FORMAT(data, '%Y-%m')` vi
 ```
 
 ---
-
-## Próximos passos deste estudo
-
-Este repositório fecha o escopo dos comandos fundamentais. Os próximos que quero exercitar em cima da mesma base:
-
-- `HAVING` para filtrar grupos agregados
-- `LEFT JOIN` para encontrar clientes sem nenhum ticket ou sem cobrança
-- CTEs (`WITH`) e funções de janela para coorte de retenção mês a mês
