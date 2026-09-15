@@ -1,8 +1,8 @@
-# SQL — 10 perguntas de negócio em uma base de assinaturas (SaaS)
+# SQL Responde -  10 perguntas de negócio em uma base de assinaturas (SaaS)
 
 Projeto de estudo em que eu modelo do zero o banco de uma empresa de assinaturas e respondo **10 perguntas de negócio** usando SQL.
 
-O foco aqui não é usar recurso avançado: é mostrar domínio sólido dos comandos que resolvem a maior parte do trabalho real de um analista de dados — `SELECT`, `FROM`, `WHERE`, `JOIN`, `GROUP BY` e `ORDER BY` — e, principalmente, **ler o resultado como negócio, não como tabela**.
+O foco aqui não é usar recurso avançado: é mostrar domínio sólido dos comandos que resolvem a maior parte do trabalho real de um analista de dados — `SELECT`, `FROM`, `WHERE`, `JOIN`, `GROUP BY` e `ORDER BY`  e, principalmente, **ler o resultado como negócio, não como tabela**.
 
 Tudo aqui roda: o schema, os dados e as 10 queries foram executados e validados em MySQL.
 
