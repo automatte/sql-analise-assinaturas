@@ -79,7 +79,7 @@ Os dados são fictícios e gerados com semente fixa, então qualquer pessoa que 
 | 6 | Quantos cancelamentos por mês e quanto de MRR foi perdido? | `JOIN`, `WHERE`, `GROUP BY`, `ORDER BY` | [`06`](https://github.com/automatte/sql-analise-assinaturas/blob/main/06_cancelamentos_por_mes.sql) |
 | 7 | Onde a cobrança falha mais: em qual plano e em qual meio de pagamento? | `JOIN` (2), `WHERE`, `GROUP BY` duplo | [`07`](https://github.com/automatte/sql-analise-assinaturas/blob/main/07_falha_de_cobranca_por_plano_e_metodo.sql) |
 | 8 | Quais clientes ativos têm cobrança em aberto? | `JOIN` (3), `WHERE` composto, `GROUP BY` | [`08`](https://github.com/automatte/sql-analise-assinaturas/blob/main/08_clientes_ativos_com_pagamento_em_aberto.sql) |
-| 9 | Qual o volume de tickets e a satisfação média por categoria? | `WHERE IS NOT NULL`, `GROUP BY`, `ORDER BY` | [`09`]([queries/09_suporte_por_categoria.sql](https://github.com/automatte/sql-analise-assinaturas/blob/main/09_suporte_por_categoria.sql)) |
+| 9 | Qual o volume de tickets e a satisfação média por categoria? | `WHERE IS NOT NULL`, `GROUP BY`, `ORDER BY` | [`09`](https://github.com/automatte/sql-analise-assinaturas/blob/main/09_suporte_por_categoria.sql) |
 | 10 | Quais clientes ativos avaliaram o suporte com nota baixa? | `JOIN` (3), `WHERE IN`, `GROUP BY`, `ORDER BY` duplo | [`10`](https://github.com/automatte/sql-analise-assinaturas/blob/main/10_clientes_ativos_em_risco.sql) |
 
 Cada arquivo traz a pergunta, **por que ela importa para o negócio** e a query comentada.
