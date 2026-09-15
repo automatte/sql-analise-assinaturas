@@ -71,7 +71,7 @@ Os dados são fictícios e gerados com semente fixa, então qualquer pessoa que 
 
 | # | Pergunta de negócio | Comandos exercitados | Arquivo |
 |---|---|---|---|
-| 1 | Quem são os clientes com assinatura ativa hoje e em que plano estão? | `JOIN` (2), `WHERE`, `ORDER BY` | [`01`](queries/01_clientes_ativos_e_seus_planos.sql) |
+| 1 | Quem são os clientes com assinatura ativa hoje e em que plano estão? | `JOIN` (2), `WHERE`, `ORDER BY` | [`01`](https://github.com/automatte/sql-analise-assinaturas/blob/main/01_clientes_ativos_e_seus_planos.sql) |
 | 2 | Quantos assinantes ativos e quanto de MRR cada plano gera? | `JOIN`, `WHERE`, `GROUP BY`, `ORDER BY` | [`02`](queries/02_assinantes_e_mrr_por_plano.sql) |
 | 3 | Qual canal de aquisição traz mais clientes e qual traz mais receita? | `JOIN` (2), `GROUP BY`, `ORDER BY` | [`03`](queries/03_aquisicao_por_canal.sql) |
 | 4 | Quanto de receita foi efetivamente recebida em cada mês? | `WHERE`, `GROUP BY`, `ORDER BY` | [`04`](queries/04_receita_recebida_por_mes.sql) |
